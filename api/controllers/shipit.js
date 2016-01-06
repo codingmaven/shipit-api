@@ -19,7 +19,7 @@ async function ups(req, res, next){
     let ups = new UpsClient({licenseNumber: '8CF57BA6F16298A8', userId: 'MITechbilling', password: 'dLp173Vb'});
     ups.requestData({trackingNumber: tracking_number}, function(err, result){
         if(err) res.send(err);
-        else res.send(result);
+        else res.json(result);
     });
 }
 
