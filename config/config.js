@@ -7,27 +7,27 @@ module.exports = {
 		db: process.env.MONGOLAB_URI || 'mongodb://localhost:27017/stripetoken_dev',
 		root: rootPath,
 		app: {
-			name: 'Phoyolabs Backend API'
+			name: 'Shipit API'
 		},
 		upload_path: 'data/uploads',
-		secret:'phoyolabs secret'
+		secret:'shipit secret'
 	},
 	test: {
 		db: process.env.MONGOLAB_URI || 'mongodb://localhost:27017/stripetoken_test',
 		root: rootPath,
 		app: {
-			name: 'Phoyolabs Backend API'
+			name: 'Shipit API'
 		},
 		upload_path: 'data/uploads',
-		secret:'phoyolabs secret'
+		secret:'shipit secret'
 	},
 	production: {
 		db: process.env.MONGOLAB_URI || 'mongodb://localhost:27017/stripetoken_prod',
 		root: rootPath,
 		app: {
-			name: 'Phoyolabs Backend API'
+			name: 'Shipit API'
 		},
 		upload_path: 'data/uploads',
-		secret:'phoyolabs secret'
+		secret:'shipit secret'
 	}
 };
