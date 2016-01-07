@@ -9,10 +9,6 @@ module.exports = {
 		app: {
 			name: 'Phoyolabs Backend API'
 		},
-        aws: {
-            accessKeyId: 'AKIAIFWBFQGBCW7H37MA',
-            secretAccessKey: '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',
-        },
 		upload_path: 'data/uploads',
 		secret:'phoyolabs secret'
 	},
@@ -22,10 +18,6 @@ module.exports = {
 		app: {
 			name: 'Phoyolabs Backend API'
 		},
-		aws: {
-			accessKeyId: 'AKIAIFWBFQGBCW7H37MA',
-			secretAccessKey: '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',
-		},
 		upload_path: 'data/uploads',
 		secret:'phoyolabs secret'
 	},
@@ -34,10 +26,6 @@ module.exports = {
 		root: rootPath,
 		app: {
 			name: 'Phoyolabs Backend API'
-		},
-		aws: {
-			accessKeyId: 'AKIAIFWBFQGBCW7H37MA',
-			secretAccessKey: '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',
 		},
 		upload_path: 'data/uploads',
 		secret:'phoyolabs secret'
